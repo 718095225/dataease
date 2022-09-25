@@ -227,64 +227,85 @@
         <dependency>
             <groupId>pentaho-kettle</groupId>
             <artifactId>kettle-core</artifactId>
-            <version>8.3.0.18-1112</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-            </exclusions>
+            <version>9.3.0.0-427</version>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>pentaho-kettle</groupId>-->
+        <!--            <artifactId>kettle-core</artifactId>-->
+        <!--            <version>8.3.0.18-1112</version>-->
+        <!--            <exclusions>-->
+        <!--                <exclusion>-->
+        <!--                    <groupId>org.slf4j</groupId>-->
+        <!--                    <artifactId>slf4j-api</artifactId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>guava</artifactId>-->
+        <!--                    <groupId>com.google.guava</groupId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>commons-io</artifactId>-->
+        <!--                    <groupId>commons-io</groupId>-->
+        <!--                </exclusion>-->
+        <!--            </exclusions>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>pentaho-kettle</groupId>
             <artifactId>kettle-engine</artifactId>
-            <version>8.3.0.18-1112</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework.security</groupId>
-                    <artifactId>spring-security-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-            </exclusions>
+            <version>9.3.0.0-427</version>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>pentaho-kettle</groupId>-->
+        <!--            <artifactId>kettle-engine</artifactId>-->
+        <!--            <version>8.3.0.18-1112</version>-->
+        <!--            <exclusions>-->
+        <!--                <exclusion>-->
+        <!--                    <groupId>org.slf4j</groupId>-->
+        <!--                    <artifactId>slf4j-api</artifactId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <groupId>org.springframework.security</groupId>-->
+        <!--                    <artifactId>spring-security-core</artifactId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>guava</artifactId>-->
+        <!--                    <groupId>com.google.guava</groupId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>commons-io</artifactId>-->
+        <!--                    <groupId>commons-io</groupId>-->
+        <!--                </exclusion>-->
+        <!--            </exclusions>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>pentaho</groupId>-->
+        <!--            <artifactId>metastore</artifactId>-->
+        <!--            <version>8.3.0.18-1112</version>-->
+        <!--            <exclusions>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>guava</artifactId>-->
+        <!--                    <groupId>com.google.guava</groupId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <artifactId>commons-io</artifactId>-->
+        <!--                    <groupId>commons-io</groupId>-->
+        <!--                </exclusion>-->
+        <!--            </exclusions>-->
+        <!--        </dependency>-->
+
         <dependency>
             <groupId>pentaho</groupId>
             <artifactId>metastore</artifactId>
-            <version>8.3.0.18-1112</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>guava</artifactId>
-                    <groupId>com.google.guava</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>commons-io</artifactId>
-                    <groupId>commons-io</groupId>
-                </exclusion>
-            </exclusions>
+            <version>9.3.0.0-427</version>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.pentaho.di.plugins</groupId>-->
+        <!--            <artifactId>pdi-engine-configuration-impl</artifactId>-->
+        <!--            <version>8.3.0.7-683</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.pentaho.di.plugins</groupId>
             <artifactId>pdi-engine-configuration-impl</artifactId>
-            <version>8.3.0.7-683</version>
+            <version>9.3.0.0-428</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
