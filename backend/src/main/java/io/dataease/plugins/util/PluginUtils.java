@@ -1,7 +1,7 @@
 package io.dataease.plugins.util;
 
-import io.dataease.commons.license.DefaultLicenseService;
-import io.dataease.commons.license.F2CLicenseResponse;
+import io.dataease.core.commons.license.DefaultLicenseService;
+import io.dataease.core.commons.license.F2CLicenseResponse;
 import io.dataease.plugins.common.dto.PluginSysMenu;
 import io.dataease.plugins.common.service.PluginMenuService;
 import io.dataease.plugins.config.SpringContextUtil;

@@ -1,6 +1,6 @@
 package io.dataease.plugins.server;
 
-import io.dataease.commons.utils.ServletUtils;
+import io.dataease.core.commons.utils.ServletUtils;
 import io.dataease.plugins.common.dto.PluginSysMenu;
 import io.dataease.plugins.common.dto.StaticResource;
 import io.dataease.plugins.common.service.PluginComponentService;

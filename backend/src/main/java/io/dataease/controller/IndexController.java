@@ -1,14 +1,13 @@
 package io.dataease.controller;
 
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.license.DefaultLicenseService;
-import io.dataease.commons.license.F2CLicenseResponse;
-import io.dataease.commons.utils.CodingUtil;
-import io.dataease.commons.utils.LogUtil;
-import io.dataease.commons.utils.ServletUtils;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.license.DefaultLicenseService;
+import io.dataease.core.commons.license.F2CLicenseResponse;
+import io.dataease.core.commons.utils.CodingUtil;
+import io.dataease.core.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.ServletUtils;
 import io.dataease.service.panel.PanelLinkService;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

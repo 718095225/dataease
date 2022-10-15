@@ -2,12 +2,12 @@ package io.dataease.service.sys.log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import io.dataease.commons.constants.SysLogConstants;
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.constants.SysLogConstants;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.controller.sys.request.LogTypeItem;
 import io.dataease.dto.log.FolderItem;
 import io.dataease.ext.ExtSysLogMapper;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.Datasource;
 import io.dataease.plugins.common.base.domain.SysLogWithBLOBs;
 import io.dataease.plugins.common.dto.datasource.DataSourceType;

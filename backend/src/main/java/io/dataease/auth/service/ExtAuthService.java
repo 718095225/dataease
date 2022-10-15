@@ -1,7 +1,7 @@
 package io.dataease.auth.service;
 
 import io.dataease.auth.entity.AuthItem;
-import io.dataease.commons.model.AuthURD;
+import io.dataease.core.commons.model.AuthURD;
 
 import java.util.List;
 import java.util.Set;

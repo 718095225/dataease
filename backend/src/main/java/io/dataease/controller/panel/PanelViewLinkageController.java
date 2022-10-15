@@ -3,7 +3,7 @@ package io.dataease.controller.panel;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 
 import io.dataease.auth.annotation.DePermissionProxy;
-import io.dataease.commons.model.BaseRspModel;
+import io.dataease.core.commons.model.BaseRspModel;
 import io.dataease.controller.request.panel.PanelLinkageRequest;
 import io.dataease.dto.PermissionProxy;
 import io.dataease.service.panel.PanelViewLinkageService;

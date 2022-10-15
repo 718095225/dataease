@@ -1,7 +1,7 @@
 package io.dataease.service.authModel;
 
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.TreeUtils;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.TreeUtils;
 import io.dataease.controller.request.authModel.VAuthModelRequest;
 import io.dataease.dto.authModel.VAuthModelDTO;
 import io.dataease.ext.*;

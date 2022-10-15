@@ -1,6 +1,6 @@
 package io.dataease.listener.util;
 
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.Element;
 import org.springframework.cache.CacheManager;

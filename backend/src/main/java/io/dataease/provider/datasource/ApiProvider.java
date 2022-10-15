@@ -14,8 +14,8 @@ import io.dataease.plugins.common.dto.datasource.TableField;
 import io.dataease.plugins.common.request.datasource.DatasourceRequest;
 import io.dataease.plugins.datasource.provider.Provider;
 import com.jayway.jsonpath.JsonPath;
-import io.dataease.commons.utils.HttpClientConfig;
-import io.dataease.commons.utils.HttpClientUtil;
+import io.dataease.core.commons.utils.HttpClientConfig;
+import io.dataease.core.commons.utils.HttpClientUtil;
 import io.dataease.controller.request.datasource.ApiDefinition;
 import io.dataease.controller.request.datasource.ApiDefinitionRequest;
 

@@ -5,7 +5,7 @@ import com.google.gson.reflect.TypeToken;
 import io.dataease.auth.api.dto.CurrentRoleDto;
 import io.dataease.auth.entity.SysUserEntity;
 import io.dataease.auth.service.AuthUserService;
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.plugins.common.base.domain.DatasetTable;
 import io.dataease.plugins.common.base.domain.DatasetTableField;
 import io.dataease.plugins.common.request.permission.DataSetRowPermissionsTreeDTO;

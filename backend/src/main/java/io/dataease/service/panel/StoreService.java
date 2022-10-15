@@ -2,7 +2,7 @@ package io.dataease.service.panel;
 
 import io.dataease.ext.ExtPanelStoreMapper;
 import io.dataease.ext.query.GridExample;
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.controller.sys.base.BaseGridRequest;
 import io.dataease.controller.sys.base.ConditionEntity;
 import io.dataease.dto.panel.PanelStoreDto;

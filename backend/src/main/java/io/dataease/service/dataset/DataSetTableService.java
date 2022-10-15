@@ -7,9 +7,9 @@ import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 import io.dataease.auth.annotation.DeCleaner;
 import io.dataease.auth.api.dto.CurrentUserDto;
-import io.dataease.commons.constants.*;
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.utils.*;
+import io.dataease.core.commons.constants.*;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.utils.*;
 import io.dataease.controller.request.dataset.DataSetGroupRequest;
 import io.dataease.controller.request.dataset.DataSetTableRequest;
 import io.dataease.controller.request.dataset.DataSetTaskRequest;
@@ -25,7 +25,7 @@ import io.dataease.exception.DataEaseException;
 import io.dataease.ext.ExtDataSetGroupMapper;
 import io.dataease.ext.ExtDataSetTableMapper;
 import io.dataease.ext.UtilMapper;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.listener.util.CacheUtils;
 import io.dataease.plugins.common.base.domain.*;
 import io.dataease.plugins.common.base.mapper.*;
@@ -88,7 +88,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import static io.dataease.commons.constants.ColumnPermissionConstants.Desensitization_desc;
+import static io.dataease.core.commons.constants.ColumnPermissionConstants.Desensitization_desc;
 
 /**
  * @Author gin

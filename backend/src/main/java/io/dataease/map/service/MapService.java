@@ -2,8 +2,8 @@ package io.dataease.map.service;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.io.FileUtil;
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.listener.util.CacheUtils;
 import io.dataease.map.dto.entity.AreaEntity;
 import io.dataease.map.dto.request.MapNodeRequest;

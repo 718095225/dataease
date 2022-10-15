@@ -3,7 +3,7 @@ package io.dataease.controller.panel.api;
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import io.dataease.auth.annotation.DePermission;
 import io.dataease.plugins.common.base.domain.PanelShare;
-import io.dataease.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.DePermissionType;
 import io.dataease.controller.request.panel.PanelShareFineDto;
 import io.dataease.controller.request.panel.PanelShareRemoveRequest;
 import io.dataease.controller.request.panel.PanelShareSearchRequest;

@@ -5,11 +5,11 @@ import io.dataease.auth.annotation.DePermission;
 import io.dataease.auth.annotation.DePermissionProxy;
 import io.dataease.auth.annotation.DePermissions;
 import io.dataease.auth.service.impl.ExtAuthServiceImpl;
-import io.dataease.commons.constants.PanelConstants;
+import io.dataease.core.commons.constants.PanelConstants;
 import io.dataease.controller.request.panel.PanelGroupBaseInfoRequest;
 import io.dataease.controller.request.panel.PanelViewLogRequest;
-import io.dataease.commons.constants.DePermissionType;
-import io.dataease.commons.constants.ResourceAuthLevel;
+import io.dataease.core.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.ResourceAuthLevel;
 import io.dataease.controller.handler.annotation.I18n;
 import io.dataease.controller.request.panel.PanelGroupRequest;
 import io.dataease.controller.request.panel.PanelViewDetailsRequest;
@@ -105,8 +105,7 @@ public class PanelGroupController {
     @DePermissionProxy(paramIndex = 1)
     @DePermission(type = DePermissionType.PANEL, level = ResourceAuthLevel.PANNEL_LEVEL_VIEW)
     @PostMapping("/proxy/findOne/{id}")
-    public PanelGroupDTO proxyFindOne(@PathVariable String id, @RequestBody PermissionProxy proxy)
-            throws Exception {
+    public PanelGroupDTO proxyFindOne(@PathVariable String id, @RequestBody PermissionProxy proxy) throws Exception {
         return panelGroupService.findOne(id);
     }
 
@@ -160,7 +159,6 @@ public class PanelGroupController {
     }, logical = Logical.AND)
     public void autoCache(@RequestBody PanelGroupRequest request){
         panelGroupService.autoCache(request);
-
     }
 
     @ApiOperation("查找缓存")
@@ -177,12 +175,14 @@ public class PanelGroupController {
     @ApiOperation("删除缓存")
     @DeleteMapping("/removePanelCache/{panelId}")
     public void removePanelCache(@PathVariable String panelId){
+
         panelGroupService.removePanelCache(panelId);
     }
 
     @ApiIgnore
     @PostMapping("/viewLog")
     public void viewLog(@RequestBody PanelViewLogRequest request) {
+
         panelGroupService.viewLog(request);
     }
     @ApiOperation("获取仪表板中视图Element信息")

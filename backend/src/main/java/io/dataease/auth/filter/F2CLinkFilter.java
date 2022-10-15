@@ -5,7 +5,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import io.dataease.auth.util.JWTUtils;
 import io.dataease.auth.util.LinkUtil;
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.plugins.common.base.domain.PanelLink;
 import org.apache.shiro.web.filter.authc.AnonymousFilter;
 

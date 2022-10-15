@@ -113,9 +113,10 @@
         defaultPanelGroup.id as default_panel_id,
         defaultPanelGroup.`name` as default_panel_name,
         authInfo.privileges as `privileges`
-        from (select GET_V_AUTH_MODEL_ID_P_USE (#{userId}, 'panel') cids) t,panel_group
-        LEFT JOIN panel_group defaultPanelGroup
-        on defaultPanelGroup.source=panel_group.id and defaultPanelGroup.source is not null
+        from
+        (select GET_V_AUTH_MODEL_ID_P_USE (#{userId}, 'panel') cids) t,
+        panel_group
+        LEFT JOIN panel_group defaultPanelGroup on defaultPanelGroup.source=panel_group.id and defaultPanelGroup.source is not null
         left join (
             SELECT
             auth_source,

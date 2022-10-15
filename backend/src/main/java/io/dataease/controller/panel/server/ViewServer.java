@@ -1,6 +1,6 @@
 package io.dataease.controller.panel.server;
 
-import io.dataease.commons.utils.TreeUtils;
+import io.dataease.core.commons.utils.TreeUtils;
 import io.dataease.controller.panel.api.ViewApi;
 import io.dataease.dto.panel.PanelViewDto;
 import io.dataease.plugins.common.base.domain.ChartView;

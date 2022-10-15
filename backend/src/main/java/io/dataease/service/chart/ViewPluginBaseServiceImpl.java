@@ -2,8 +2,8 @@ package io.dataease.service.chart;
 
 import cn.hutool.core.util.ReflectUtil;
 import com.google.gson.Gson;
-import io.dataease.commons.model.PluginViewSetImpl;
-import io.dataease.commons.utils.TableUtils;
+import io.dataease.core.commons.model.PluginViewSetImpl;
+import io.dataease.core.commons.utils.TableUtils;
 import io.dataease.dto.dataset.DataSetTableUnionDTO;
 import io.dataease.dto.dataset.DataTableInfoDTO;
 import io.dataease.plugins.common.base.domain.ChartViewWithBLOBs;

@@ -1,13 +1,13 @@
 package io.dataease.service.system;
 
 import cn.hutool.core.util.ArrayUtil;
-import io.dataease.commons.constants.ParamConstants;
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.utils.CommonBeanFactory;
-import io.dataease.commons.utils.EncryptUtils;
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.constants.ParamConstants;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.EncryptUtils;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.controller.sys.response.MailInfo;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.SystemParameter;
 import io.dataease.plugins.common.base.domain.SystemParameterExample;
 import io.dataease.plugins.common.base.mapper.SystemParameterMapper;

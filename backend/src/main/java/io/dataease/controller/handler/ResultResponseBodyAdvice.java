@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import io.dataease.controller.ResultHolder;
 import io.dataease.controller.handler.annotation.I18n;
 import io.dataease.controller.handler.annotation.NoResultHolder;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

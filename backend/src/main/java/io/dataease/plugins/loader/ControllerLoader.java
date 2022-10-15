@@ -1,7 +1,7 @@
 package io.dataease.plugins.loader;
 
 
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.plugins.config.SpringContextUtil;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ClassUtils;

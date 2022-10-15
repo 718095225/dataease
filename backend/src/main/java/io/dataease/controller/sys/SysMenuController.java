@@ -2,7 +2,7 @@ package io.dataease.controller.sys;
 
 
 import io.dataease.plugins.common.base.domain.SysMenu;
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 
 import io.dataease.controller.handler.annotation.I18n;
 import io.dataease.controller.sys.base.BaseGridRequest;
@@ -31,7 +31,7 @@ public class SysMenuController {
     @Resource
     private MenuService menuService;
 
-    @ApiOperation("查询跟节点菜单")
+    @ApiOperation("查根节点菜单")
     @I18n
     @PostMapping("/childNodes/{pid}")
     public List<MenuNodeResponse> childNodes(@PathVariable("pid") Long pid){

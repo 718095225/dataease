@@ -1,6 +1,6 @@
 package io.dataease.controller.sys;
 
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 import io.dataease.controller.ResultHolder;
 import io.dataease.controller.sys.base.BaseGridRequest;
 import io.dataease.controller.sys.response.DeptNodeResponse;

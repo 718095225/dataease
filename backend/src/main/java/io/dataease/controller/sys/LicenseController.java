@@ -1,7 +1,7 @@
 package io.dataease.controller.sys;
 
-import io.dataease.commons.license.DefaultLicenseService;
-import io.dataease.commons.license.F2CLicenseResponse;
+import io.dataease.core.commons.license.DefaultLicenseService;
+import io.dataease.core.commons.license.F2CLicenseResponse;
 import io.dataease.controller.ResultHolder;
 import io.dataease.exception.DataEaseException;
 import org.springframework.beans.factory.annotation.Value;

@@ -2,7 +2,7 @@ package io.dataease.controller.panel.api;
 
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import io.dataease.auth.annotation.DePermission;
-import io.dataease.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.DePermissionType;
 import io.dataease.controller.request.chart.ChartExtRequest;
 import io.dataease.controller.request.panel.link.*;
 import io.dataease.dto.panel.link.GenerateDto;

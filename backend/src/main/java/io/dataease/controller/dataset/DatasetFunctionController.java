@@ -2,7 +2,7 @@ package io.dataease.controller.dataset;
 
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import io.dataease.auth.annotation.DePermission;
-import io.dataease.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.DePermissionType;
 import io.dataease.plugins.common.base.domain.DatasetTableFunction;
 import io.dataease.service.dataset.DatasetFunctionService;
 import io.swagger.annotations.Api;

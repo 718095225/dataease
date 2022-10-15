@@ -1,9 +1,9 @@
 package io.dataease.listener;
 
 import com.google.gson.Gson;
-import io.dataease.commons.condition.RedisStatusCondition;
-import io.dataease.commons.constants.RedisConstants;
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.condition.RedisStatusCondition;
+import io.dataease.core.commons.constants.RedisConstants;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.service.datasource.DatasourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;

@@ -2,9 +2,9 @@ package io.dataease.service.redis.impl;
 
 import com.google.gson.Gson;
 import io.dataease.service.redis.RedisMessageBroadcast;
-import io.dataease.websocket.entity.WsMessage;
-import io.dataease.websocket.service.impl.StandaloneWsService;
-import io.dataease.websocket.util.WsUtil;
+import io.dataease.core.websocket.entity.WsMessage;
+import io.dataease.core.websocket.service.impl.StandaloneWsService;
+import io.dataease.core.websocket.util.WsUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

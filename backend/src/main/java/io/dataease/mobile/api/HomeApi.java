@@ -1,6 +1,6 @@
 package io.dataease.mobile.api;
 
-import io.dataease.commons.utils.Pager;
+import io.dataease.core.commons.utils.Pager;
 import io.dataease.mobile.dto.HomeItemDTO;
 import io.dataease.mobile.dto.HomeItemShareDTO;
 import io.dataease.mobile.dto.HomeRequest;

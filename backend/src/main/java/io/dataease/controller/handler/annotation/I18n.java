@@ -1,7 +1,7 @@
 package io.dataease.controller.handler.annotation;
 
 
-import io.dataease.commons.constants.I18nConstants;
+import io.dataease.core.commons.constants.I18nConstants;
 
 import java.lang.annotation.*;
 

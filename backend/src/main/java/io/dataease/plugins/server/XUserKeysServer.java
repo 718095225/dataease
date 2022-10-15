@@ -1,6 +1,6 @@
 package io.dataease.plugins.server;
 
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.plugins.config.SpringContextUtil;
 import io.dataease.plugins.xpack.ukey.dto.request.XpackUkeyDto;
 import io.dataease.plugins.xpack.ukey.service.UkeyXpackService;

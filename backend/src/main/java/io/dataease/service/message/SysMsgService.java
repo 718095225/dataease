@@ -1,9 +1,9 @@
 package io.dataease.service.message;
 
 import io.dataease.ext.ExtSysMsgMapper;
-import io.dataease.commons.constants.SysMsgConstants;
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.constants.SysMsgConstants;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.controller.sys.request.BatchSettingRequest;
 import io.dataease.controller.sys.request.MsgRequest;
 import io.dataease.controller.sys.request.MsgSettingRequest;

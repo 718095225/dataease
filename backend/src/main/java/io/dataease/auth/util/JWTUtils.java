@@ -9,7 +9,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 import com.auth0.jwt.interfaces.Verification;
 import io.dataease.auth.entity.TokenInfo;
 import io.dataease.auth.entity.TokenInfo.TokenInfoBuilder;
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.exception.DataEaseException;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;

@@ -3,8 +3,8 @@ package io.dataease.controller.engine;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
-import io.dataease.commons.utils.PageUtils;
-import io.dataease.commons.utils.Pager;
+import io.dataease.core.commons.utils.PageUtils;
+import io.dataease.core.commons.utils.Pager;
 import io.dataease.controller.ResultHolder;
 import io.dataease.dto.KettleDTO;
 import io.dataease.plugins.common.base.domain.DeEngine;

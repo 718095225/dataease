@@ -1,6 +1,6 @@
 package io.dataease.controller.request;
 
-import io.dataease.commons.constants.SystemConstants;
+import io.dataease.core.commons.constants.SystemConstants;
 import lombok.Data;
 
 /**

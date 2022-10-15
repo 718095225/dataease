@@ -2,14 +2,14 @@ package io.dataease.provider.datasource;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonParser;
-import io.dataease.commons.utils.HttpClientConfig;
-import io.dataease.commons.utils.HttpClientUtil;
+import io.dataease.core.commons.utils.HttpClientConfig;
+import io.dataease.core.commons.utils.HttpClientUtil;
 import io.dataease.controller.request.datasource.es.EsReponse;
 import io.dataease.controller.request.datasource.es.Request;
 import io.dataease.controller.request.datasource.es.RequestWithCursor;
 import io.dataease.dto.datasource.EsConfiguration;
 import io.dataease.exception.DataEaseException;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.constants.datasource.EsSqlLConstants;
 import io.dataease.plugins.common.dto.datasource.TableDesc;
 import io.dataease.plugins.common.dto.datasource.TableField;

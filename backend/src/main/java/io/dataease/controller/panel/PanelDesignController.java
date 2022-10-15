@@ -1,7 +1,7 @@
 package io.dataease.controller.panel;
 
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
-import io.dataease.commons.model.BaseRspModel;
+import io.dataease.core.commons.model.BaseRspModel;
 import io.dataease.service.panel.PanelGroupService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

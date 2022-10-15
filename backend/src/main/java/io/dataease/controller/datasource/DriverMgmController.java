@@ -2,7 +2,7 @@ package io.dataease.controller.datasource;
 
 
 import io.dataease.auth.annotation.DeLog;
-import io.dataease.commons.constants.SysLogConstants;
+import io.dataease.core.commons.constants.SysLogConstants;
 import io.dataease.dto.DriverDTO;
 import io.dataease.plugins.common.base.domain.DeDriver;
 import io.dataease.plugins.common.base.domain.DeDriverDetails;

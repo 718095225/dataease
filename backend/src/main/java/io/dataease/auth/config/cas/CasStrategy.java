@@ -1,7 +1,7 @@
 package io.dataease.auth.config.cas;
 
 import io.dataease.auth.service.impl.ShiroServiceImpl;
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.service.system.SystemParameterService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.util.AntPathMatcher;

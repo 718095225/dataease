@@ -1,6 +1,6 @@
 package io.dataease.job.sechedule.strategy;
 
-import io.dataease.commons.utils.CronUtils;
+import io.dataease.core.commons.utils.CronUtils;
 import io.dataease.job.sechedule.ScheduleManager;
 import io.dataease.plugins.common.entity.GlobalTaskEntity;
 import org.apache.commons.lang3.ObjectUtils;

@@ -2,7 +2,7 @@ package io.dataease.service.sys;
 
 import io.dataease.ext.*;
 import io.dataease.ext.query.GridExample;
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 import io.dataease.controller.sys.base.BaseGridRequest;
 import io.dataease.controller.sys.request.DeptCreateRequest;
 import io.dataease.controller.sys.request.DeptDeleteRequest;

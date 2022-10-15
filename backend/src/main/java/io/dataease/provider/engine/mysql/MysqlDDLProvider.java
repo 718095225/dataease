@@ -2,7 +2,7 @@ package io.dataease.provider.engine.mysql;
 
 import io.dataease.plugins.common.base.domain.DatasetTableField;
 import io.dataease.plugins.common.base.domain.Datasource;
-import io.dataease.commons.utils.TableUtils;
+import io.dataease.core.commons.utils.TableUtils;
 import io.dataease.provider.DDLProviderImpl;
 import org.springframework.stereotype.Service;
 

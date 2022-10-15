@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.utils.LogUtil;
-import io.dataease.i18n.Translator;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.utils.LogUtil;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.config.SpringContextUtil;
 import io.dataease.plugins.xpack.theme.service.ThemeXpackService;
 

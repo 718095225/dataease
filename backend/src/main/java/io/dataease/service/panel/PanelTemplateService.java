@@ -1,13 +1,13 @@
 package io.dataease.service.panel;
 
 import io.dataease.ext.ExtPanelTemplateMapper;
-import io.dataease.commons.constants.CommonConstants;
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.constants.CommonConstants;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 import io.dataease.controller.request.panel.PanelTemplateRequest;
 import io.dataease.dto.panel.PanelTemplateDTO;
 import io.dataease.exception.DataEaseException;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.PanelTemplate;
 import io.dataease.plugins.common.base.domain.PanelTemplateExample;
 import io.dataease.plugins.common.base.domain.PanelTemplateWithBLOBs;
@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import static io.dataease.commons.constants.StaticResourceConstants.UPLOAD_URL_PREFIX;
+import static io.dataease.core.commons.constants.StaticResourceConstants.UPLOAD_URL_PREFIX;
 
 /**
  * Author: wangjiahao

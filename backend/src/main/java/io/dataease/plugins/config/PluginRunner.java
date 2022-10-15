@@ -1,6 +1,6 @@
 package io.dataease.plugins.config;
 
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.controller.sys.base.BaseGridRequest;
 import io.dataease.plugins.common.base.domain.MyPlugin;
 import io.dataease.service.sys.PluginService;

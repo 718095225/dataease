@@ -1,6 +1,6 @@
 package io.dataease.job.sechedule;
 
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.LogUtil;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

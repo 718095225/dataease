@@ -1,8 +1,8 @@
 package io.dataease.service.dataset;
 
-import io.dataease.commons.exception.DEException;
-import io.dataease.commons.utils.TableUtils;
-import io.dataease.i18n.Translator;
+import io.dataease.core.commons.exception.DEException;
+import io.dataease.core.commons.utils.TableUtils;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.DatasetTableField;
 import io.dataease.plugins.common.base.domain.DatasetTableFieldExample;
 import io.dataease.plugins.common.base.mapper.DatasetTableFieldMapper;

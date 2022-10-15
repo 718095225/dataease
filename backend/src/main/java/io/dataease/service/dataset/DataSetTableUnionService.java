@@ -1,9 +1,9 @@
 package io.dataease.service.dataset;
 
 import io.dataease.ext.ExtDatasetTableUnionMapper;
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.dto.dataset.DataSetTableUnionDTO;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.DatasetTableUnion;
 import io.dataease.plugins.common.base.domain.DatasetTableUnionExample;
 import io.dataease.plugins.common.base.mapper.DatasetTableUnionMapper;

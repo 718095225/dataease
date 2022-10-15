@@ -1,8 +1,8 @@
 package io.dataease.service;
 
 
-import io.dataease.commons.constants.FileType;
-import io.dataease.commons.exception.DEException;
+import io.dataease.core.commons.constants.FileType;
+import io.dataease.core.commons.exception.DEException;
 import io.dataease.plugins.common.base.domain.FileContent;
 import io.dataease.plugins.common.base.domain.FileContentExample;
 import io.dataease.plugins.common.base.domain.FileMetadata;

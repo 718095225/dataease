@@ -1,9 +1,9 @@
 package io.dataease.service.chart;
 
 import io.dataease.ext.*;
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.BeanUtils;
-import io.dataease.commons.utils.TreeUtils;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.TreeUtils;
 import io.dataease.controller.request.chart.ChartGroupRequest;
 import io.dataease.dto.chart.ChartGroupDTO;
 import io.dataease.plugins.common.base.domain.ChartGroup;

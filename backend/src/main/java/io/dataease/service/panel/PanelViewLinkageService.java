@@ -1,7 +1,7 @@
 package io.dataease.service.panel;
 
 import io.dataease.ext.ExtPanelViewLinkageMapper;
-import io.dataease.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.controller.request.panel.PanelLinkageRequest;
 import io.dataease.dto.LinkageInfoDTO;
 import io.dataease.dto.PanelViewLinkageDTO;

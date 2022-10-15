@@ -1,6 +1,6 @@
 package io.dataease.service.chart;
 
-import io.dataease.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.dto.chart.FilterParamTO;
 import io.dataease.plugins.common.request.chart.ChartExtFilterRequest;
 import org.apache.commons.collections4.CollectionUtils;

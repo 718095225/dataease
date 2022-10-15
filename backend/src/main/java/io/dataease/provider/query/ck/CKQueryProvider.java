@@ -1,6 +1,6 @@
 package io.dataease.provider.query.ck;
 
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 import io.dataease.plugins.common.base.domain.ChartViewWithBLOBs;
 import io.dataease.plugins.common.base.domain.DatasetTableField;
 import io.dataease.plugins.common.base.domain.DatasetTableFieldExample;

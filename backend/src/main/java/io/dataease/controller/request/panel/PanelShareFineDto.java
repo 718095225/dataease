@@ -1,6 +1,6 @@
 package io.dataease.controller.request.panel;
 
-import io.dataease.commons.model.AuthURD;
+import io.dataease.core.commons.model.AuthURD;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

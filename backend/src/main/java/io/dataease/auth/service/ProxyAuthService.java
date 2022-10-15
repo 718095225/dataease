@@ -10,7 +10,7 @@ import groovy.lang.Lazy;
 import io.dataease.auth.api.dto.CurrentRoleDto;
 import io.dataease.auth.api.dto.CurrentUserDto;
 import io.dataease.auth.entity.SysUserEntity;
-import io.dataease.commons.utils.BeanUtils;
+import io.dataease.core.commons.utils.BeanUtils;
 
 @Service
 public class ProxyAuthService {

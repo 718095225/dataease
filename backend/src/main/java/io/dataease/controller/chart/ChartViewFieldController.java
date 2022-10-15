@@ -2,12 +2,12 @@ package io.dataease.controller.chart;
 
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import io.dataease.auth.annotation.DePermission;
-import io.dataease.commons.constants.DePermissionType;
-import io.dataease.commons.constants.ResourceAuthLevel;
-import io.dataease.commons.exception.DEException;
+import io.dataease.core.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.ResourceAuthLevel;
+import io.dataease.core.commons.exception.DEException;
 import io.dataease.controller.request.dataset.DataSetTableRequest;
 import io.dataease.controller.response.ChartViewField4Type;
-import io.dataease.i18n.Translator;
+import io.dataease.core.i18n.Translator;
 import io.dataease.plugins.common.base.domain.ChartViewField;
 import io.dataease.plugins.common.base.domain.DatasetTable;
 import io.dataease.plugins.common.base.domain.DatasetTableField;

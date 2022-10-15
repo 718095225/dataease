@@ -1,10 +1,10 @@
 package io.dataease.auth.aop;
 
 import io.dataease.auth.annotation.DeCleaner;
-import io.dataease.commons.constants.DePermissionType;
-import io.dataease.commons.utils.AopUtils;
-import io.dataease.commons.utils.CommonBeanFactory;
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.constants.DePermissionType;
+import io.dataease.core.commons.utils.AopUtils;
+import io.dataease.core.commons.utils.CommonBeanFactory;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.service.decatch.DeCatchProcess;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.ObjectUtils;

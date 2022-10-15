@@ -1,6 +1,6 @@
 package io.dataease.auth.annotation;
 
-import io.dataease.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.DePermissionType;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

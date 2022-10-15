@@ -1,7 +1,7 @@
 package io.dataease.controller.sys;
 
 
-import io.dataease.commons.license.F2CLicenseResponse;
+import io.dataease.core.commons.license.F2CLicenseResponse;
 import io.dataease.service.AboutService;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;

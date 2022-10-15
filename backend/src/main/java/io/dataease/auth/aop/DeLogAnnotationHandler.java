@@ -2,9 +2,8 @@ package io.dataease.auth.aop;
 
 
 import io.dataease.auth.annotation.DeLog;
-import io.dataease.commons.constants.SysLogConstants;
-import io.dataease.commons.utils.AopUtils;
-import io.dataease.commons.utils.DeLogUtils;
+import io.dataease.core.commons.constants.SysLogConstants;
+import io.dataease.core.commons.utils.AopUtils;
 import io.dataease.controller.ResultHolder;
 import io.dataease.dto.SysLogDTO;
 import io.dataease.dto.log.FolderItem;

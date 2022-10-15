@@ -1,6 +1,6 @@
 package io.dataease.job.sechedule;
 
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.exception.DataEaseException;
 import org.quartz.*;
 import org.springframework.stereotype.Component;

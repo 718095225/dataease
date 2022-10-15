@@ -1,6 +1,6 @@
 package io.dataease.service;
 
-import io.dataease.commons.constants.ScheduleType;
+import io.dataease.core.commons.constants.ScheduleType;
 import io.dataease.job.sechedule.ExtractDataJob;
 import io.dataease.job.sechedule.ScheduleManager;
 import io.dataease.job.sechedule.strategy.TaskHandler;

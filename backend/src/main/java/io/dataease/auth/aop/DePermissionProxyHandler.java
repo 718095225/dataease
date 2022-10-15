@@ -15,8 +15,8 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import io.dataease.auth.annotation.DePermissionProxy;
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.LogUtil;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.dto.PermissionProxy;
 import io.dataease.exception.DataEaseException;
 

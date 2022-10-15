@@ -2,7 +2,7 @@ package io.dataease.controller.panel.api;
 
 import com.github.xiaoymin.knife4j.annotations.ApiSupport;
 import io.dataease.auth.annotation.DePermission;
-import io.dataease.commons.constants.DePermissionType;
+import io.dataease.core.commons.constants.DePermissionType;
 import io.dataease.controller.sys.base.BaseGridRequest;
 import io.dataease.dto.panel.PanelStoreDto;
 import io.swagger.annotations.Api;

@@ -1,7 +1,7 @@
 package io.dataease.auth.annotation;
 
-import io.dataease.commons.constants.SysLogConstants.OPERATE_TYPE;
-import io.dataease.commons.constants.SysLogConstants.SOURCE_TYPE;
+import io.dataease.core.commons.constants.SysLogConstants.OPERATE_TYPE;
+import io.dataease.core.commons.constants.SysLogConstants.SOURCE_TYPE;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

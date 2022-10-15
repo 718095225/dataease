@@ -1,10 +1,10 @@
 package io.dataease.plugins.server;
 
 import io.dataease.auth.api.dto.CurrentUserDto;
-import io.dataease.commons.constants.AuthConstants;
-import io.dataease.commons.constants.SysLogConstants;
-import io.dataease.commons.utils.AuthUtils;
-import io.dataease.commons.utils.DeLogUtils;
+import io.dataease.core.commons.constants.AuthConstants;
+import io.dataease.core.commons.constants.SysLogConstants;
+import io.dataease.core.commons.utils.AuthUtils;
+import io.dataease.core.commons.utils.DeLogUtils;
 import io.dataease.controller.handler.annotation.I18n;
 import io.dataease.dto.SysLogDTO;
 import io.dataease.listener.util.CacheUtils;
