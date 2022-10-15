@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.service.datasource.DatasourceService;
 import io.dataease.service.dataset.DataSetTableService;

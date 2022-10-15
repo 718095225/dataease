@@ -22,7 +22,7 @@ import io.dataease.dto.panel.po.PanelViewInsertDTO;
 import io.dataease.exception.DataEaseException;
 import io.dataease.ext.*;
 import io.dataease.core.i18n.Translator;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.base.domain.*;
 import io.dataease.plugins.common.base.mapper.*;
 import io.dataease.plugins.common.constants.DeTypeConstants;

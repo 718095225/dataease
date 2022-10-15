@@ -1,12 +1,10 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import com.google.gson.Gson;
 import io.dataease.core.commons.condition.RedisStatusCondition;
 import io.dataease.core.commons.constants.RedisConstants;
-import io.dataease.core.commons.model.RedisMessage;
-import io.dataease.core.commons.utils.CommonBeanFactory;
 import io.dataease.core.commons.utils.LogUtil;
-import io.dataease.service.redis.RedisMessageBroadcast;
+import io.dataease.service.datasource.DatasourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Conditional;
@@ -18,13 +16,12 @@ import org.springframework.data.redis.listener.ChannelTopic;
 import org.springframework.data.redis.listener.RedisMessageListenerContainer;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.stereotype.Service;
-
 import javax.annotation.Resource;
 
 
 @Conditional({RedisStatusCondition.class})
 @Service
-public class RedisMessageSubscriber implements MessageListener {
+public class RedisMessageDataSourceSubscriber implements MessageListener {
 
     @Resource
     private RedisMessageListenerContainer redisMessageListenerContainer;
@@ -33,13 +30,15 @@ public class RedisMessageSubscriber implements MessageListener {
 
     @Autowired
     private RedisTemplate redisTemplate;
+    @Resource
+    private DatasourceService datasourceService;
 
     /**
      * 启动之后订阅 topic
      */
     @EventListener
     public void init(ApplicationReadyEvent event) {
-        String topic = RedisConstants.GLOBAL_REDIS_TOPIC;
+        String topic = RedisConstants.DS_REDIS_TOPIC;
         LogUtil.info("Subscribe Topic: " + topic);
         redisMessageListenerContainer.addMessageListener(new MessageListenerAdapter(this), new ChannelTopic(topic));
     }
@@ -49,11 +48,14 @@ public class RedisMessageSubscriber implements MessageListener {
      * @param pattern 暂时用不到
      */
     public void onMessage(final Message message, final byte[] pattern) {
+        try {
 
-
-        RedisMessage redisMessage = json.fromJson(message.toString(), RedisMessage.class);
-
-        RedisMessageBroadcast service = (RedisMessageBroadcast)CommonBeanFactory.getBean(redisMessage.getType());
-        service.messageCallBack(redisMessage.getData());
+            byte[] messageBody = message.getBody();
+            // 使用值序列化器转换
+            Object o = redisTemplate.getValueSerializer().deserialize(messageBody);
+            datasourceService.handleConnectionPool(o.toString(), "edit");
+        }catch (Exception e){
+            LogUtil.error(e);
+        }
     }
 }

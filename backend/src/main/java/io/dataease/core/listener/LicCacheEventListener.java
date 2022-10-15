@@ -1,7 +1,7 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.core.commons.constants.AuthConstants;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import net.sf.ehcache.CacheException;
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;

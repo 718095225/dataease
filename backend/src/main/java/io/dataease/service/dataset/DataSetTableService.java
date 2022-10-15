@@ -26,7 +26,7 @@ import io.dataease.ext.ExtDataSetGroupMapper;
 import io.dataease.ext.ExtDataSetTableMapper;
 import io.dataease.ext.UtilMapper;
 import io.dataease.core.i18n.Translator;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.base.domain.*;
 import io.dataease.plugins.common.base.mapper.*;
 import io.dataease.plugins.common.constants.DatasetType;

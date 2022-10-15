@@ -24,7 +24,7 @@ import io.dataease.service.datasource.DatasourceService;
 import io.dataease.dto.dataset.DataTableInfoDTO;
 import io.dataease.dto.dataset.ExcelSheetData;
 import io.dataease.exception.DataEaseException;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.service.engine.EngineService;
 import io.dataease.service.kettle.KettleService;
 import io.dataease.service.message.DeMsgutil;

@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.plugins.common.base.domain.SysStartupJob;
 import io.dataease.plugins.common.base.mapper.SysStartupJobMapper;

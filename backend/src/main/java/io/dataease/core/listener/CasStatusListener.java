@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.plugins.config.SpringContextUtil;
 import io.dataease.plugins.xpack.cas.service.CasXpackService;

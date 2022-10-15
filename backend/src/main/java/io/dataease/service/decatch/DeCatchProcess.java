@@ -4,7 +4,7 @@ import io.dataease.auth.api.dto.CurrentUserDto;
 import io.dataease.core.commons.constants.AuthConstants;
 import io.dataease.core.commons.model.AuthURD;
 import io.dataease.core.commons.utils.AuthUtils;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.scheduling.annotation.Async;

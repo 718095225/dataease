@@ -10,7 +10,7 @@ import io.dataease.core.commons.utils.HttpClientUtil;
 import io.dataease.controller.ResultHolder;
 import io.dataease.dto.datasource.DorisConfiguration;
 import io.dataease.dto.datasource.MysqlConfiguration;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.base.domain.Datasource;
 import io.dataease.plugins.common.base.domain.DeEngine;
 import io.dataease.plugins.common.base.domain.DeEngineExample;

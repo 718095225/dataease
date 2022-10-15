@@ -15,7 +15,7 @@ import io.dataease.core.commons.utils.PageUtils;
 import io.dataease.core.commons.utils.Pager;
 import io.dataease.controller.sys.response.DeptNodeResponse;
 import io.dataease.dto.SysLogDTO;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.entity.XpackGridRequest;
 import io.dataease.plugins.config.SpringContextUtil;
 import io.dataease.plugins.xpack.dept.dto.request.*;

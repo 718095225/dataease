@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.auth.service.AuthUserService;
 import io.dataease.job.sechedule.ScheduleManager;

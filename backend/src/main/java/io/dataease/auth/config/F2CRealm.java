@@ -11,7 +11,7 @@ import io.dataease.auth.service.AuthUserService;
 import io.dataease.auth.util.JWTUtils;
 import io.dataease.core.commons.utils.BeanUtils;
 import io.dataease.core.commons.utils.LogUtil;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;

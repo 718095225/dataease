@@ -1,4 +1,4 @@
-package io.dataease.listener.util;
+package io.dataease.core.listener.util;
 
 import io.dataease.core.commons.utils.CommonBeanFactory;
 import net.sf.ehcache.Cache;

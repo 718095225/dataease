@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.core.commons.utils.LogUtil;
 import io.dataease.plugins.common.base.domain.DatasetTableTask;

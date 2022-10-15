@@ -7,7 +7,7 @@ import io.dataease.core.commons.utils.AuthUtils;
 import io.dataease.core.commons.utils.DeLogUtils;
 import io.dataease.controller.handler.annotation.I18n;
 import io.dataease.dto.SysLogDTO;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.dto.DatasourceBaseType;
 import io.dataease.plugins.common.dto.datasource.DataSourceType;
 import io.dataease.plugins.config.SpringContextUtil;

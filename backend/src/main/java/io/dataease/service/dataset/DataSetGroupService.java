@@ -15,7 +15,7 @@ import io.dataease.controller.request.dataset.DataSetTableRequest;
 import io.dataease.dto.dataset.DataSetGroupDTO;
 import io.dataease.dto.dataset.DataSetTableDTO;
 import io.dataease.core.i18n.Translator;
-import io.dataease.listener.util.CacheUtils;
+import io.dataease.core.listener.util.CacheUtils;
 import io.dataease.plugins.common.base.domain.DatasetGroup;
 import io.dataease.plugins.common.base.domain.DatasetGroupExample;
 import io.dataease.plugins.common.base.mapper.DatasetGroupMapper;

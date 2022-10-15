@@ -1,4 +1,4 @@
-package io.dataease.listener;
+package io.dataease.core.listener;
 
 import io.dataease.map.service.MapTransferService;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
